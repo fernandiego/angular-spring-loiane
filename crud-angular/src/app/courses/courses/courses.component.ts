@@ -14,15 +14,15 @@ export class CoursesComponent implements OnInit {
   ];
   displayedColumns = ['name', 'category'];
 
-  coursesService: CoursesService;
+  // coursesService: CoursesService;
 
-  constructor() {
-    this.coursesService = new CoursesService();
+  constructor(private coursesService: CoursesService) {
+    // this.coursesService = new CoursesService();
     this.courses = this.coursesService.list();
    }
 
   ngOnInit(): void {
-    
+    this.courses = this.coursesService.list();
   }
 
 }
