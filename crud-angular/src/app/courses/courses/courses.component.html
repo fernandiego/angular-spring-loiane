@@ -1,8 +1,8 @@
 <mat-card>
   <mat-toolbar color="primary">Cursos disponíveis</mat-toolbar>
 
-  <div *ngIf="courses$ | async as courses">
-  <table mat-table [dataSource]="courses" class="mat-elevation-z8">
+  <div *ngIf="courses$ | async as courses; else loading">
+    <table mat-table [dataSource]="courses" class="mat-elevation-z8">
       <!--- Note that these columns can be defined in any order.
         The actual rendered columns are set as a property on the row definition" -->
 
@@ -22,5 +22,9 @@
       <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
     </table>
   </div>
-    <mat-spinner></mat-spinner>
+  <ng-template #loading>
+    <div class="loading-spinner">
+      <mat-spinner></mat-spinner>
+    </div>
+  </ng-template>
 </mat-card>
