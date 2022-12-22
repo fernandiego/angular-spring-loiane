@@ -17,7 +17,7 @@ export class CoursesComponent implements OnInit {
   courses$: Observable<Course[]>;
   // courses$: Course[] = [];
 
-  displayedColumns = ['name', 'category'];
+  displayedColumns = ['_id','name', 'category'];
 
   // coursesService: CoursesService;
 
