@@ -1,6 +1,7 @@
 package com.fox.crudspring.controller;
 
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -11,8 +12,9 @@ import com.fox.crudspring.repository.CourseRepository;
 
 import lombok.AllArgsConstructor;
 
+@CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("/api/courses")
+@RequestMapping("api/courses")
 @AllArgsConstructor
 public class CourseController {
 
