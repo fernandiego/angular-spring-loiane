@@ -14,6 +14,7 @@ import { CategoryPipe } from './pipes/category.pipe';
   imports: [
     CommonModule,
     AppMaterialModule
+
   ],
   exports: [
     ErrorDialogComponent,
