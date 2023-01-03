@@ -8,6 +8,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatInputModule } from '@angular/material/input';
+import { MatSelect, MatSelectModule } from '@angular/material/select';
 
 
 
@@ -21,7 +22,8 @@ import { MatInputModule } from '@angular/material/input';
     MatButtonModule,
     MatIconModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule
   ],
 })
 export class AppMaterialModule { }
