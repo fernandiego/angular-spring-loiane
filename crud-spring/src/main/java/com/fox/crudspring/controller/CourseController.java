@@ -4,6 +4,7 @@ package com.fox.crudspring.controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -31,6 +32,7 @@ public class CourseController {
 
         @PostMapping
         public void create(@RequestBody Course course) {
-            System.out.println(course.getName());
+            // System.out.println(course.getName());
+            courseRepository.save(course);
         }
 }
