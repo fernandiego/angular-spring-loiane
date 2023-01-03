@@ -3,6 +3,7 @@ package com.fox.crudspring.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,5 +27,10 @@ public class CourseController {
     // @RequestMapping(method = RequestMethod.GET) forma alternativa de getmapping
     public @ResponseBody Iterable<Course> list() {
         return courseRepository.findAll();
+        }
+
+        @PostMapping
+        public void create(@RequestBody Course course) {
+            System.out.println(course.getName());
         }
 }
