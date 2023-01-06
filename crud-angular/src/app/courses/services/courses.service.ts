@@ -19,7 +19,7 @@ export class CoursesService {
         // delay(5000),
         tap(courses => console.log(courses)));
   }
-  save(record: Course) {
+  save(record: Partial<Course>) {
     return this.httpClient.post<Course>(this.API, record).pipe(first());
   }
 }

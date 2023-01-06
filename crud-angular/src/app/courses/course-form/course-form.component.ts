@@ -1,6 +1,6 @@
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 import { Component, OnInit } from '@angular/core';
-import { UntypedFormBuilder, UntypedFormGroup } from '@angular/forms';
+import { FormControl, UntypedFormBuilder, UntypedFormGroup, NonNullableFormBuilder } from '@angular/forms';
 import { Location } from '@angular/common';
 import { CoursesService } from '../services/courses.service';
 
@@ -11,16 +11,15 @@ import { CoursesService } from '../services/courses.service';
 })
 export class CourseFormComponent implements OnInit {
 
-  form: UntypedFormGroup;
+  form = this.formBuilder.group({
+    name: [''],
+    category: ['']
+  });
 
-  constructor(private formBuilder: UntypedFormBuilder,
+  constructor(private formBuilder: NonNullableFormBuilder,
     private service: CoursesService,
     private snackBar: MatSnackBar,
     private location: Location) {
-    this.form = this.formBuilder.group({
-      name: [null],
-      category: [null]
-    });
   }
 
 
@@ -33,7 +32,7 @@ export class CourseFormComponent implements OnInit {
         error => this.onError());
   }
   onCancel() {
-this.location.back();
+    this.location.back();
   }
   private onError() {
     this.snackBar.open('Erro ao salvar curso.', '', { duration: 3000 });
