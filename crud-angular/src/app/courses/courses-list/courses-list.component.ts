@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Course } from '../model/course';
 
@@ -9,7 +9,8 @@ import { Course } from '../model/course';
 })
 export class CoursesListComponent implements OnInit {
 
-  courses: Course[] = [];
+
+  @Input() courses: Course[] = [];
 
   readonly displayedColumns = ['_id','name', 'category', 'actions'];
 
