@@ -2,7 +2,8 @@
   <mat-toolbar color="primary">Cursos disponíveis</mat-toolbar>
 
   <app-courses-list *ngIf="courses$ | async as courses; else loading"
-  [courses]="courses"></app-courses-list>
+  [courses]="courses"
+  (add)="onAdd()"></app-courses-list>
 
 
   <ng-template #loading>
