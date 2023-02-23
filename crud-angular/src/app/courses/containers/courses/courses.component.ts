@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
@@ -26,6 +27,7 @@ export class CoursesComponent implements OnInit {
     private coursesService: CoursesService,
     public dialog: MatDialog,
     private router: Router,
+    private snackBar: MatSnackBar,
     private route: ActivatedRoute
   ) {
     this.courses$ = this.coursesService.list()
@@ -54,5 +56,10 @@ export class CoursesComponent implements OnInit {
   onEdit(course: Course){
     this.router.navigate(['edit', course._id], {relativeTo: this.route})
     console.log('onEdit');
+  }
+  onRemove(course: Course) {
+    this.coursesService.remove(course._id).subscribe(() => {
+
+    });
   }
 }
