@@ -47,4 +47,5 @@ public class Course {
     @NotNull
     @Column(length = 10, nullable = false)
     private String status = "Ativo";
+    
 }
