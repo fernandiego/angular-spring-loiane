@@ -31,7 +31,7 @@ public class Course {
 
     @NotBlank
     @Length(max = 10)
-    @Pattern(regexp = "Back-end | Front-end")
+    @Pattern(regexp = "Back-end|Front-end")
     @NotNull
     @Column(length = 10, nullable = false)
     private String category;
