@@ -1,12 +1,11 @@
 package com.fox.crudspring.enums;
 
-
-public enum Category {
-    BACK_END("Back-end"), FRONT_END("Front-end");
+public enum Status {
+    ACTIVE("Ativo"), INACTIVE("Inativo");
 
     private String value;
 
-    private Category(String value) {
+    private Status(String value) {
         this.value = value;
     }
     public String getValue() {
