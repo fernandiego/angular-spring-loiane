@@ -2,6 +2,7 @@ package com.fox.crudspring.service;
 
 import com.fox.crudspring.dto.CourseDTO;
 import com.fox.crudspring.dto.mapper.CourseMapper;
+import com.fox.crudspring.enums.Category;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -49,7 +50,7 @@ public class CourseService {
         return courseRepository.findById(id)
                 .map(recordFound -> {
                     recordFound.setName(course.name());
-                    recordFound.setCategory(course.category());
+                    recordFound.setCategory(Category.FRONT_END);
                     return courseMapper.toDTO(courseRepository.save(recordFound));
                 }).orElseThrow(() -> new RecordNotFoundException(id));
     }

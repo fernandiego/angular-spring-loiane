@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fox.crudspring.model.Course;
 import com.fox.crudspring.service.CourseService;
 
 import jakarta.validation.Valid;
@@ -23,8 +22,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
 import java.util.List;
-
-@CrossOrigin(origins = "*")
+@CrossOrigin("*")
 @Validated
 @RestController
 @RequestMapping("/api/courses")

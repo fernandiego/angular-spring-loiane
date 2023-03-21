@@ -1,5 +1,6 @@
 package com.fox.crudspring;
 
+import com.fox.crudspring.enums.Category;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,12 +19,11 @@ public class CrudSpringApplication {
 	@Bean
 	CommandLineRunner initDatabase(CourseRepository courseRepository) {
 		return args -> {
-			
 			courseRepository.deleteAll();
 
 			Course c = new Course();
-			c.setName("Angular com spring");
-			c.setCategory("Front-end");		
+			c.setName("Angular com Spring");
+			c.setCategory(Category.BACK_END);
 
 			courseRepository.save(c);
 		};
