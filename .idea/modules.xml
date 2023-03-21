@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/angular-spring-loiane.iml" filepath="$PROJECT_DIR$/.idea/angular-spring-loiane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crud-spring/crud-spring.iml" filepath="$PROJECT_DIR$/crud-spring/crud-spring.iml" />
     </modules>
   </component>
 </project>

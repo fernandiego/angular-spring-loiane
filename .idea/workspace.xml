@@ -5,14 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddaca55b-36db-44c9-a043-a9f6341f186a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/crud-angular/src/app/courses/courses-list/courses-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud-angular/src/app/courses/courses-list/courses-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-angular/src/app/courses/courses-list/courses-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/crud-angular/src/app/courses/courses-list/courses-list.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-angular/src/app/courses/courses/courses.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/crud-angular/src/app/courses/courses/courses.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/enums/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/enums/converters/CategoryConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/angular-spring-loiane.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/angular-spring-loiane.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/CrudSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/CrudSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/controller/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/controller/ApplicationControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/CourseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/CourseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/service/CourseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,7 +38,17 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2IIBxpJYXLJsWCITD7rUtIy4Avj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,13 +57,58 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/fox/git/angular-spring-loiane",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/fox/git/angular-spring-loiane/crud-spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "6383fe4c02cdca713a4695e2c1edbd22",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Spring Boot.CrudSpringApplication">
+    <configuration name="Tests (crud-angular)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/crud-angular/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/crud-angular/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$/crud-angular" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="CrudSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="crud-spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fox.crudspring.CrudSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/crud-angular/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +118,9 @@
       <option name="presentableId" value="Default" />
       <updated>1669859465883</updated>
       <workItem from="1673907697592" duration="23000" />
+      <workItem from="1679341895145" duration="5371000" />
+      <workItem from="1679398187507" duration="2839000" />
+      <workItem from="1679418100790" duration="4303000" />
     </task>
     <servers />
   </component>
