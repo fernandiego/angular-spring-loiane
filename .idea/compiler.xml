@@ -10,9 +10,6 @@
         <module name="crud-spring" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="crud-spring" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
