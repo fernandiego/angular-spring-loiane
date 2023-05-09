@@ -2,7 +2,9 @@ package com.fox.crudspring.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 public class Lesson{
     @Id
@@ -13,4 +15,8 @@ public class Lesson{
     private String name;
     @Column(length = 11, nullable = false)
     private String youtubeUrl;
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "course_id", nullable = false)
+    private Course course;
 }
