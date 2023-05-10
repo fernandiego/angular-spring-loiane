@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddaca55b-36db-44c9-a043-a9f6341f186a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/LessonDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/CourseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/CourseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/mapper/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/model/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/model/Lesson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1679511326644" duration="448000" />
       <workItem from="1683573716921" duration="6110000" />
       <workItem from="1683633814755" duration="32000" />
-      <workItem from="1683744571819" duration="1541000" />
+      <workItem from="1683744571819" duration="2988000" />
     </task>
     <servers />
   </component>
