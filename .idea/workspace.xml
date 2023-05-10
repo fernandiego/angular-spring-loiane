@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ddaca55b-36db-44c9-a043-a9f6341f186a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/CrudSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/CrudSpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/CourseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/CourseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/dto/mapper/CourseMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/model/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud-spring/src/main/java/com/fox/crudspring/model/Lesson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,33 +43,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/fox/git/cursoSpringAlura/forum",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "6383fe4c02cdca713a4695e2c1edbd22",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/fox/git/cursoSpringAlura/forum&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6383fe4c02cdca713a4695e2c1edbd22&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.CrudSpringApplication">
     <configuration name="Tests (crud-angular)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/crud-angular/karma.conf.js" />
@@ -113,7 +113,9 @@
       <workItem from="1679398187507" duration="2839000" />
       <workItem from="1679418100790" duration="8925000" />
       <workItem from="1679511326644" duration="448000" />
-      <workItem from="1683573716921" duration="5778000" />
+      <workItem from="1683573716921" duration="6110000" />
+      <workItem from="1683633814755" duration="32000" />
+      <workItem from="1683744571819" duration="1541000" />
     </task>
     <servers />
   </component>
